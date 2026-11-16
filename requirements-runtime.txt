@@ -1,0 +1,12 @@
+# GUI and hardware-facing dependencies. The exact validated AI runtime is recorded
+# in runtime_manifest.json and must come from the matching LeRobot/RLinf/OpenPI setup.
+PySide6>=6.7
+numpy>=1.26
+scipy>=1.11
+opencv-python>=4.8
+pyarrow>=17
+PyYAML>=6
+torch>=2.4
+xarm-python-sdk==1.18.4
+pytest>=8
+

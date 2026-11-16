@@ -1,0 +1,7 @@
+{
+  "loaded": true,
+  "seconds": 14.234069027937949,
+  "hardware_connected": false,
+  "message": "模型已加载并完成 GPU 预热 · 绝对末端 Pose（XYZ＋wxyz）",
+  "model_mode": "tcp_absolute_wxyz"
+}

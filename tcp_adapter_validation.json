@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-21",
+  "unit_tests": {
+    "passed": 150,
+    "failed": 0
+  },
+  "supported_configs": [
+    "pi05_xarm7_state",
+    "pi05_xarm7_tcp_state"
+  ],
+  "tcp_semantics": "absolute base-frame XYZ meters + unit quaternion wxyz + gripper fraction",
+  "tcp_gpu_check": "tcp_inference_check.json",
+  "joint_gpu_check": "joint_compatibility_check.json",
+  "gui_check": {
+    "loaded": true,
+    "seconds": 14.234069027937949,
+    "hardware_connected": false,
+    "message": "模型已加载并完成 GPU 预热 · 绝对末端 Pose（XYZ＋wxyz）",
+    "model_mode": "tcp_absolute_wxyz"
+  },
+  "physical_motion_tested": false,
+  "source_hashes": {
+    "model_contract.py": "43f33ff6e8355381355730b0d01fa87cda639b0a2c19062c3d15c415ccda57d1",
+    "pi05_policy.py": "0f45a2d422dc8466370e91cbfba28933b4dc6b01115fc94542ea85f429446a23",
+    "engine.py": "880ecded1f45042a8b44ccbdafb5ddea35969d9b88fb20b8a88a610d856ba15a",
+    "hardware.py": "6eff87eb93080b9afbb96796e00876a7478a9ea7e6a5873f3d12c04c687e018e",
+    "app.py": "4c234de24115992b9c797dd985f539b9fefa9bec86c7064ce16f2630fa6ce3a1",
+    "run_recording.py": "70b5b6c3460edc945445d48bdee70f86f2028a60b4e66b1bcf21cb0a96c5728c",
+    "test_tcp_adapter.py": "584c0ffd8f14ef76155b3fae022e68d7fb9c317671682de749e52c311e7aab74",
+    "check_tcp_inference.py": "4e61ead0fee7a61d92143c9ed5630b712fdb7731f46c9eecae584ed23bcb12f8"
+  }
+}

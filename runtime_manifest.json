@@ -1,0 +1,23 @@
+{
+  "versions": {
+    "torch": "2.11.0+cu128",
+    "transformers": "5.5.4",
+    "lerobot": "0.6.2",
+    "numpy": "2.2.6",
+    "jax": "0.5.3",
+    "jaxlib": "0.5.3",
+    "sentencepiece": "0.2.2",
+    "ml-dtypes": "0.6.0",
+    "opt-einsum": "3.4.0",
+    "PySide6-Essentials": "6.12.0",
+    "shiboken6": "6.12.0"
+  },
+  "source_hashes": {
+    "/home/a/download/lerobot/src/lerobot/policies/pi05/modeling_pi05.py": "3bbc8480e4a96434275daef50d4341fafcf4bacfc8533d07a2fd16df2f56ae23",
+    "/home/a/download/lerobot/src/lerobot/policies/pi05/configuration_pi05.py": "e19e2d1bfe1d2f4243e800d28c70b51cb70969fde0cae2a7e6b0452042ddf569",
+    "/home/a/download/lerobot/src/lerobot/policies/pi_gemma.py": "faec69b28f74b42cfb6217898f9a5ee29a442a5f8275339eb2d4453d450dc412",
+    "/home/a/download/lerobot/src/lerobot/policies/common/flow_matching.py": "ce1cff1aab02f971dacfc6f78779c6c6813a404165d2c16bf66c3ad2174049eb",
+    "/home/a/download/lerobot/src/lerobot/policies/common/vla_utils.py": "88efbc82314a0ffd826f4693ff42fc580a5385424370b271351e2674cf0e33cb"
+  },
+  "tokenizer_sha256": "8986bb4f423f07f8c7f70d0dbe3526fb2316056c17bae71b1ea975e77a168fc6"
+}

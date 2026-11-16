@@ -1,0 +1,44 @@
+# Runtime configuration and state
+/inference_settings.json
+/logs/
+/推理记录/
+/.state/
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*credentials*.json
+*session*.json
+
+# External runtime bundles and model assets
+/vendor/
+/assets/paligemma_tokenizer.model
+/models/
+/checkpoints/
+*.pt
+*.pth
+*.safetensors
+*.onnx
+
+# Environments, caches, and generated data
+.venv*/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+*.sqlite*
+*.db
+*.jsonl
+*.log
+*.partial
+*.mp4
+*.hdf5
+*.h5
+*.parquet
+*.whl
+*.zip
+*.tgz
+
